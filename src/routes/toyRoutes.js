@@ -1,5 +1,11 @@
 import express from "express";
-import  {getAlltoys,getToysById,createToy,deletaToy,updateToy} from "../controllers/toyController.js";
+import {
+  getAlltoys,
+  getToysById,
+  createToy,
+  deletaToy,
+  updateToy,
+} from "../controllers/toyController.js";
 
 const router = express.Router();
 
